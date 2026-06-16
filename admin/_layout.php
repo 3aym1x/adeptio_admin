@@ -8,8 +8,8 @@ function render_admin_header(PDO $pdo, string $title, string $active): void
         'demandes'    => ['Demandes',          'demandes.php',     'fa-file-alt'],
         'rendez_vous' => ['Rendez-vous',       'rendez_vous.php',  'fa-calendar-alt'],
         'emails'      => ['Emails',            'emails.php',       'fa-envelope'],
-        'historique'   => ['Historique',        'historique.php',    'fa-history'],
         'statistiques' => ['Statistiques',      'statistiques.php',  'fa-chart-bar'],
+        'historique'   => ['Historique',        'historique.php',    'fa-history'],
     ];
     ?>
 <!DOCTYPE html>
